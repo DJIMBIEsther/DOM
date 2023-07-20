@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Point de contrôle DOM</title>
+    <link rel="stylesheet" href="Styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Nos articles à vendre</h1>
+    </header>
+
+    <main>
+      <div class="Lesarticles">
+        <div class="article">
+          <img
+            src="image/BibleNormale.png"
+            alt="imagebiblenormal"
+            class="image"
+          />
+          <h2>Bible normale</h2>
+          <span class="Prix">5000</span>frs<br />
+          <button class="Plus">+</button>
+          <input type="text" value="0" class="Quantité" />
+          <button class="Moins">-</button>
+          <button class="Supprimer">Supprimer</button>
+        </div>
+
+        <div class="article">
+          <img
+            src="image/BiblePersonnalisée.png"
+            alt="imagebiblepersonnalisée"
+            class="image"
+          />
+          <h2>Bible personnalisée</h2>
+          <span class="Prix">7500</span>frs<br />
+          <button class="Plus">+</button>
+          <input type="text" class="Quantité" value="0" />
+          <button class="Moins">-</button>
+          <button class="Supprimer">Supprimer</button>
+        </div>
+        <div class="article">
+          <img src="image/Carnet.png" alt="Carnet" class="image" />
+          <h2>Carnet</h2>
+          <span class="Prix">3500</span>frs<br />
+          <button class="Plus">+</button>
+          <input type="text" class="Quantité" value="0" />
+          <button class="Moins">-</button>
+          <button class="Supprimer">Supprimer</button>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="Total">Total = <span id="Total"></span></div>
+    </main>
+    <script src="Javascript.js"></script>
+  </body>
+</html>
